@@ -13,7 +13,7 @@ Iam A Simple Gofiles Uploader Bot. Send Me Any File Or Media To Get gofile.io St
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")],
+        [InlineKeyboardButton(text="Close🔓", callback_data="home")],
     ]
 
     # Rest Buttons
