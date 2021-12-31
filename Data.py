@@ -8,7 +8,7 @@ Hello {}
 
 Iam A Simple Gofiles Uploader Bot. Send Me Any File Or Media To Get gofile.io Stream Link
 
-Made With ❤ BY @M2Botz
+𝗠𝗮𝗱𝗲 𝗪𝗶𝘁𝗵 ❤ BY @M2Botz
     """
 
     # Home Button
