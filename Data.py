@@ -4,14 +4,11 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hello {}
 
-Welcome to {}
+Iam A Simple Gofiles Uploader Bot. Send Me Any File Or Media To Get gofile.io Stream Link
 
-I can upload any media to gofile.io and return the link.
-Just send me the media and you will get the link!
-
-By @StarkBots
+Made With ❤ BY @M2Botz
     """
 
     # Home Button
@@ -21,18 +18,19 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Help⚙️", callback_data="help"),
+            InlineKeyboardButton("About😎", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("💬 Update Channel", url="https://t.me/m2botz"),
+        InlineKeyboardButton("🗣 Support Group", url="https://t.me/m2botzsupport")],
+        [
+        InlineKeyboardButton("🧑‍💻Developer", url="https://t.me/ask_admin01")],
     ]
 
     # Help Message
     HELP = """
-Just send me the media and you will get the link!
+Just Send Me The Media And You Will Get The Link!
 
 ✨ **Available Commands** ✨
 
@@ -45,13 +43,13 @@ Just send me the media and you will get the link!
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to upload files to gofile.io by @StarkBots
+A Telegram Bot To Upload Files To gofile.io By @M2Botz
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/GoFileBot)
+💬 Update Channel  : [Click Here](https://t.me/m2botz)
 
-Framework : [Pyrogram](docs.pyrogram.org)
+🗣 Support Group : [Click Here](https://t.me/m2botzsupport)
 
-Language : [Python](www.python.org)
+🔗Source Code : [Comming Soon](https://t.me/m2botz)
 
-Developer : @StarkProgrammer
+🧑‍💻Developer : [M2](https://t.me/ask_admin01)
     """
