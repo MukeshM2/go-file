@@ -26,7 +26,8 @@ async def main(bot: Client, msg: Message):
     ).json()
     link = upload["data"]["downloadPage"]
     await msg.reply(
-        f"Here's the link: \n\n{link}",
+        f"Download Page : \n\n{link}", 
+        Info : Direct links only work if your account is a donor account. Standard accounts will have their links redirected to the download page.
         quote=True,
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Share Link", url="https://t.me/share/url?url="+link)]])
     )
